@@ -1,5 +1,5 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'tela_inicial.h'
+** Meta object code from reading C++ file 'pesquisar_filmes.h'
 **
 ** Created by: The Qt Meta Object Compiler version 68 (Qt 6.4.0)
 **
@@ -7,10 +7,10 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../sistem_emprestimo/tela_inicial.h"
+#include "../../sistem_emprestimo/pesquisar_filmes.h"
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'tela_inicial.h' doesn't include <QObject>."
+#error "The header file 'pesquisar_filmes.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
 #error "This file was generated using the moc from 6.4.0. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -25,31 +25,31 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
-struct qt_meta_stringdata_tela_inicial_t {
+struct qt_meta_stringdata_pesquisar_filmes_t {
     uint offsetsAndSizes[8];
-    char stringdata0[13];
-    char stringdata1[28];
+    char stringdata0[17];
+    char stringdata1[24];
     char stringdata2[1];
-    char stringdata3[29];
+    char stringdata3[28];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(sizeof(qt_meta_stringdata_tela_inicial_t::offsetsAndSizes) + ofs), len 
-Q_CONSTINIT static const qt_meta_stringdata_tela_inicial_t qt_meta_stringdata_tela_inicial = {
+    uint(sizeof(qt_meta_stringdata_pesquisar_filmes_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_pesquisar_filmes_t qt_meta_stringdata_pesquisar_filmes = {
     {
-        QT_MOC_LITERAL(0, 12),  // "tela_inicial"
-        QT_MOC_LITERAL(13, 27),  // "on_Button_add_filme_clicked"
+        QT_MOC_LITERAL(0, 16),  // "pesquisar_filmes"
+        QT_MOC_LITERAL(17, 23),  // "on_Button_busca_clicked"
         QT_MOC_LITERAL(41, 0),  // ""
-        QT_MOC_LITERAL(42, 28)   // "on_Button_pesq_filme_clicked"
+        QT_MOC_LITERAL(42, 27)   // "on_Button_emprestar_clicked"
     },
-    "tela_inicial",
-    "on_Button_add_filme_clicked",
+    "pesquisar_filmes",
+    "on_Button_busca_clicked",
     "",
-    "on_Button_pesq_filme_clicked"
+    "on_Button_emprestar_clicked"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_tela_inicial[] = {
+Q_CONSTINIT static const uint qt_meta_data_pesquisar_filmes[] = {
 
  // content:
       10,       // revision
@@ -73,51 +73,51 @@ Q_CONSTINIT static const uint qt_meta_data_tela_inicial[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject tela_inicial::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject pesquisar_filmes::staticMetaObject = { {
     QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_tela_inicial.offsetsAndSizes,
-    qt_meta_data_tela_inicial,
+    qt_meta_stringdata_pesquisar_filmes.offsetsAndSizes,
+    qt_meta_data_pesquisar_filmes,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_tela_inicial_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_pesquisar_filmes_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<tela_inicial, std::true_type>,
-        // method 'on_Button_add_filme_clicked'
+        QtPrivate::TypeAndForceComplete<pesquisar_filmes, std::true_type>,
+        // method 'on_Button_busca_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_Button_pesq_filme_clicked'
+        // method 'on_Button_emprestar_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
 
-void tela_inicial::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void pesquisar_filmes::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<tela_inicial *>(_o);
+        auto *_t = static_cast<pesquisar_filmes *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_Button_add_filme_clicked(); break;
-        case 1: _t->on_Button_pesq_filme_clicked(); break;
+        case 0: _t->on_Button_busca_clicked(); break;
+        case 1: _t->on_Button_emprestar_clicked(); break;
         default: ;
         }
     }
     (void)_a;
 }
 
-const QMetaObject *tela_inicial::metaObject() const
+const QMetaObject *pesquisar_filmes::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *tela_inicial::qt_metacast(const char *_clname)
+void *pesquisar_filmes::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_tela_inicial.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_pesquisar_filmes.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int tela_inicial::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int pesquisar_filmes::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     if (_id < 0)

@@ -28,4 +28,6 @@ private slots:
 private:
     Ui::JanelaLogin *ui;
 };
+
+
 #endif // JANELALOGIN_H

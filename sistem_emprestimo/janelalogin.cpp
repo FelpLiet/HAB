@@ -13,8 +13,6 @@ JanelaLogin::JanelaLogin(QWidget *parent)
     bancoDeDados.setDatabaseName("C:/Users/joaov/OneDrive/Documentos/trab/sistem_emprestimo/banco/banco.db");
     if(!bancoDeDados.open()){
         ui->label->setText("Desconectado!");
-    }else{
-        ui->label->setText("Conectado!");
     }
 }
 

@@ -10,18 +10,24 @@ CONFIG += c++17
 
 SOURCES += \
     create_new_user.cpp \
+    insert_filme.cpp \
     main.cpp \
     janelalogin.cpp \
+    pesquisar_filmes.cpp \
     tela_inicial.cpp
 
 HEADERS += \
     create_new_user.h \
+    insert_filme.h \
     janelalogin.h \
+    pesquisar_filmes.h \
     tela_inicial.h
 
 FORMS += \
     create_new_user.ui \
+    insert_filme.ui \
     janelalogin.ui \
+    pesquisar_filmes.ui \
     tela_inicial.ui
 
 # Default rules for deployment.
